@@ -17,11 +17,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_15_SPARSE_DATA
 #define FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execJoinButtonClicked); \
+	DECLARE_FUNCTION(execHostButtonClicked); \
 	DECLARE_FUNCTION(execMenuSetup);
 
 
 #define FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execJoinButtonClicked); \
+	DECLARE_FUNCTION(execHostButtonClicked); \
 	DECLARE_FUNCTION(execMenuSetup);
 
 
