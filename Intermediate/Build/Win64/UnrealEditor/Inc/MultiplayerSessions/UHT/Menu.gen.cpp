@@ -31,18 +31,18 @@ void EmptyLinkFunctionForGeneratedCodeMenu() {}
 	}
 	DEFINE_FUNCTION(UMenu::execOnStartSession)
 	{
-		P_GET_UBOOL(Z_Param_bWasSuccessfull);
+		P_GET_UBOOL(Z_Param_bWasSuccessful);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->OnStartSession(Z_Param_bWasSuccessfull);
+		P_THIS->OnStartSession(Z_Param_bWasSuccessful);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UMenu::execOnDestroySession)
 	{
-		P_GET_UBOOL(Z_Param_bWasSuccessfull);
+		P_GET_UBOOL(Z_Param_bWasSuccessful);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->OnDestroySession(Z_Param_bWasSuccessfull);
+		P_THIS->OnDestroySession(Z_Param_bWasSuccessful);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UMenu::execOnCreateSession)
@@ -200,23 +200,23 @@ void EmptyLinkFunctionForGeneratedCodeMenu() {}
 	{
 		struct Menu_eventOnDestroySession_Parms
 		{
-			bool bWasSuccessfull;
+			bool bWasSuccessful;
 		};
-		static void NewProp_bWasSuccessfull_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWasSuccessfull;
+		static void NewProp_bWasSuccessful_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWasSuccessful;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	void Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessfull_SetBit(void* Obj)
+	void Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessful_SetBit(void* Obj)
 	{
-		((Menu_eventOnDestroySession_Parms*)Obj)->bWasSuccessfull = 1;
+		((Menu_eventOnDestroySession_Parms*)Obj)->bWasSuccessful = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessfull = { "bWasSuccessfull", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(Menu_eventOnDestroySession_Parms), &Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessfull_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessful = { "bWasSuccessful", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(Menu_eventOnDestroySession_Parms), &Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessful_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMenu_OnDestroySession_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessfull,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMenu_OnDestroySession_Statics::NewProp_bWasSuccessful,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMenu_OnDestroySession_Statics::Function_MetaDataParams[] = {
@@ -237,23 +237,23 @@ void EmptyLinkFunctionForGeneratedCodeMenu() {}
 	{
 		struct Menu_eventOnStartSession_Parms
 		{
-			bool bWasSuccessfull;
+			bool bWasSuccessful;
 		};
-		static void NewProp_bWasSuccessfull_SetBit(void* Obj);
-		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWasSuccessfull;
+		static void NewProp_bWasSuccessful_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWasSuccessful;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	void Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessfull_SetBit(void* Obj)
+	void Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessful_SetBit(void* Obj)
 	{
-		((Menu_eventOnStartSession_Parms*)Obj)->bWasSuccessfull = 1;
+		((Menu_eventOnStartSession_Parms*)Obj)->bWasSuccessful = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessfull = { "bWasSuccessfull", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(Menu_eventOnStartSession_Parms), &Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessfull_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessful = { "bWasSuccessful", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(Menu_eventOnStartSession_Parms), &Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessful_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UMenu_OnStartSession_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessfull,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UMenu_OnStartSession_Statics::NewProp_bWasSuccessful,
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMenu_OnStartSession_Statics::Function_MetaDataParams[] = {
@@ -303,8 +303,8 @@ void EmptyLinkFunctionForGeneratedCodeMenu() {}
 		{ &Z_Construct_UFunction_UMenu_JoinButtonClicked, "JoinButtonClicked" }, // 2443125163
 		{ &Z_Construct_UFunction_UMenu_MenuSetup, "MenuSetup" }, // 2655664036
 		{ &Z_Construct_UFunction_UMenu_OnCreateSession, "OnCreateSession" }, // 1550804140
-		{ &Z_Construct_UFunction_UMenu_OnDestroySession, "OnDestroySession" }, // 2140244155
-		{ &Z_Construct_UFunction_UMenu_OnStartSession, "OnStartSession" }, // 920601926
+		{ &Z_Construct_UFunction_UMenu_OnDestroySession, "OnDestroySession" }, // 2641345110
+		{ &Z_Construct_UFunction_UMenu_OnStartSession, "OnStartSession" }, // 989692030
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMenu_Statics::Class_MetaDataParams[] = {
@@ -370,9 +370,9 @@ void EmptyLinkFunctionForGeneratedCodeMenu() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UMenu, UMenu::StaticClass, TEXT("UMenu"), &Z_Registration_Info_UClass_UMenu, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMenu), 2916790457U) },
+		{ Z_Construct_UClass_UMenu, UMenu::StaticClass, TEXT("UMenu"), &Z_Registration_Info_UClass_UMenu, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMenu), 1514615959U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_10354189(TEXT("/Script/MultiplayerSessions"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_383473867(TEXT("/Script/MultiplayerSessions"),
 		Z_CompiledInDeferFile_FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Ondrej_Documents_Unreal_Projects_MultiplayerCourse_MenuSystem_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

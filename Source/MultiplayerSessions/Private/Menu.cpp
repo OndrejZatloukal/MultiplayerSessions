@@ -145,11 +145,11 @@ void UMenu::OnJoinSession(EOnJoinSessionCompleteResult::Type Result)
 	}
 }
 
-void UMenu::OnDestroySession(bool bWasSuccessfull)
+void UMenu::OnDestroySession(bool bWasSuccessful)
 {
 }
 
-void UMenu::OnStartSession(bool bWasSuccessfull)
+void UMenu::OnStartSession(bool bWasSuccessful)
 {
 }
 
