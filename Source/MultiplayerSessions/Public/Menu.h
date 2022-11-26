@@ -27,7 +27,7 @@ protected:
 	// Callbacks for the custom delegates on the MultiplayerSessionsSubsystem.
 	//
 	UFUNCTION()
-	void OnCreateSession(bool bWasSuccessfull);
+	void OnCreateSession(bool bWasSuccessful);
 	void OnFindSessions(const TArray<FOnlineSessionSearchResult>& SessionResults, bool bWasSuccessful);
 	void OnJoinSession(EOnJoinSessionCompleteResult::Type Result);
 	UFUNCTION()

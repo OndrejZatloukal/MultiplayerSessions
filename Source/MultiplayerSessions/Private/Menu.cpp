@@ -72,9 +72,9 @@ void UMenu::NativeDestruct()
 	Super::NativeDestruct();
 }
 
-void UMenu::OnCreateSession(bool bWasSuccessfull)
+void UMenu::OnCreateSession(bool bWasSuccessful)
 {
-	if (bWasSuccessfull)
+	if (bWasSuccessful)
 	{
 		if (GEngine)
 		{
